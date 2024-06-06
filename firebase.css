@@ -1,0 +1,36 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.div {
+    text-align: left;
+    max-width: 500px;
+    border: solid 2px black;
+    border-radius: 6px;
+    padding: 20px;
+    background-color: lightpink;
+    box-shadow: 3px 3px;
+    
+}
+
+.overskrift {
+    text-align: center;
+}
+
+.ferdig {
+    text-decoration: line-through;
+}
+
+
+.punktDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
